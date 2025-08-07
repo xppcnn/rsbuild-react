@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@ant-design/v5-patch-for-react-19':
+    specifier: ^1.0.3
+    version: 1.0.3(antd@5.26.7)(react-dom@19.1.1)(react@19.1.1)
   antd:
     specifier: ^5.26.7
     version: 5.26.7(react-dom@19.1.1)(react@19.1.1)
@@ -117,6 +120,19 @@ packages:
       react: 19.1.1
       resize-observer-polyfill: 1.5.1
       throttle-debounce: 5.0.2
+    dev: false
+
+  /@ant-design/v5-patch-for-react-19@1.0.3(antd@5.26.7)(react-dom@19.1.1)(react@19.1.1):
+    resolution: {integrity: sha512-iWfZuSUl5kuhqLUw7jJXUQFMMkM7XpW7apmKzQBQHU0cpifYW4A79xIBt9YVO5IBajKpPG5UKP87Ft7Yrw1p/w==}
+    engines: {node: '>=12.x'}
+    peerDependencies:
+      antd: '>=5.22.6'
+      react: '>=19.0.0'
+      react-dom: '>=19.0.0'
+    dependencies:
+      antd: 5.26.7(react-dom@19.1.1)(react@19.1.1)
+      react: 19.1.1
+      react-dom: 19.1.1(react@19.1.1)
     dev: false
 
   /@babel/runtime@7.28.2:
