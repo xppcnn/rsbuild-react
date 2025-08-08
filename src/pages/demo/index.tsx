@@ -166,7 +166,7 @@ const DemoPage = () => {
           <Button type="primary" onClick={fetchUsers}>
             搜索
           </Button>
-          <Button type="primary" onClick={addUser}>
+          <Button type="primary" onClick={addUser} className='bg-red-500'>
             添加用户
           </Button>
           <Button onClick={() => {
